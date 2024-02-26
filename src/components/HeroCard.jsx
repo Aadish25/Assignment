@@ -1,6 +1,6 @@
 export default function HeroCard(props) {
   return (
-    <div className="flex flex-col justify-center  lg:flex-row relative gap-4 p-6  shadow-sm bg-white w-full min-h-max">
+    <div className="flex flex-col justify-center  lg:flex-row relative gap-4 p-6  shadow-sm hover:bg-neutral-100 bg-white w-full min-h-max">
       {props.best ? (
         <div className="flex top-0 left-0 absolute px-2 py-1 gap-2 rounded-md bg-orange-500 text-white">
           <img src={props.bestList.icon} alt="icon" />
@@ -9,7 +9,7 @@ export default function HeroCard(props) {
       ) : (
         ""
       )}
-      <div className="absolute border-2 -left-3 top-16 text-gray-700 h-8 w-8 text-center  rounded-full border-gray-300">
+      <div className="absolute border-2 -left-5 top-16 text-gray-700 h-8 w-8 text-center  rounded-full border-gray-300">
         <p className="text-md">{props.index + 1}</p>
       </div>
       <div className=" w-full lg:w-1/5  flex flex-col justify-center items-center">
@@ -68,7 +68,7 @@ export default function HeroCard(props) {
         ) : (
           ""
         )}
-        <div className="flex items-center gap-2 text-[#1B88F4]">
+        <div className="flex items-center gap-2  cursor-pointer text-[#1B88F4]">
           <p>Show more</p>
           <i className="fa-solid fa-chevron-down"></i>
         </div>

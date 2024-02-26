@@ -18,7 +18,7 @@ export default function Hero() {
   ];
   const options = optionsList.map((item, index) => {
     return (
-      <div key={index} className="text-xs md:text-base bg-white p-2 md:p-3 text-gray-500 rounded-lg">
+      <div key={index} className=" cursor-pointer text-xs md:text-base bg-white p-2 md:p-3 text-gray-500 rounded-lg">
         {item}
       </div>
     );

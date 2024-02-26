@@ -7,9 +7,9 @@ export default function NavBar() {
           <input className="rounded-lg py-1 px-2" type="text"></input>
         </div>
         <ul className="hidden md:flex text-sm text-white md:gap-8">
-          <li>Categories</li>
-          <li>Website Builders</li>
-          <li>Today&apos;s deals</li>
+          <li className="cursor-pointer">Categories</li>
+          <li className="  cursor-pointer">Website Builders</li>
+          <li className="  cursor-pointer">Today&apos;s deals</li>
         </ul>
       </div>
     </div>

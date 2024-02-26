@@ -2,7 +2,7 @@ export default function DealCard(props) {
   const discountedPrice =
     Number(props.price) - (Number(props.price) * Number(props.offer)) / 100;
   return (
-    <div className="flex flex-col gap-1 shadow-lg bg-white px-2 py-3 rounded-md">
+    <div className="flex flex-col gap-1 shadow-lg hover:bg-neutral-100 bg-white px-2 py-3 rounded-md">
       <div className="flex justify-center">
         <img className="h-64 w-64" src={props.img} alt="computer" />
       </div>

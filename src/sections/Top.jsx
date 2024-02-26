@@ -13,7 +13,7 @@ export default function Top() {
           <i className="fa-solid fa-circle-info"></i>
           <p>Advertising Disclosure</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex cursor-pointer items-center gap-2">
           <p>Top Relevant</p>
           <i className="fa-solid fa-chevron-down"></i>
         </div>
